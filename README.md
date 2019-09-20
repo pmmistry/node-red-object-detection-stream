@@ -61,9 +61,9 @@ You should see [live streaming with tello drone ](https://twitter.com/poojamakes
 
 Search and un-comment out the following
 
-    ``` httpAdminRoot: '/editor',
+     httpAdminRoot: '/editor',
      httpNodeRoot: '/api',
-     httpStatic: '/Users/<homefolder>/.node-red',```
+     httpStatic: '/Users/<homefolder>/.node-red',
 
 6. Run Node-Red by running this command : `node-red` 
 
@@ -76,7 +76,5 @@ Search and un-comment out the following
 8. Deploy and in a different tab go to ``[http://127.0.0.1:1880/api/dashboard](http://127.0.0.1:1880/editor/#flow/38da0bb9.896c44)`` 
 
 You should see video stream from Raspberry Pi along with object detection 🎉 
-
-
 
 
