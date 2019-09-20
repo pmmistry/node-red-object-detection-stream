@@ -51,9 +51,6 @@ You should see [live streaming with tello drone ](https://twitter.com/poojamakes
 
 1 . Confirm you have Node-RED and ffmpeg installed on Raspberry Pi 
 
-    - To confirm node-red --> open pi terminal and type `nod-red` you should see node-red run and point you to a browser session 
-    - To confirm ffmpeg --> open pi terminal and type `ffmpeg` 
-
 2. If you don’t have ffmpeg installed follow [these instructions](https://www.jeffreythompson.org/blog/2014/11/13/installing-ffmpeg-for-raspberry-pi/) to install ffmpeg on pi
 
 3. Train an object detection model  - you can follow [these instructions](https://github.com/cloud-annotations/training/) on how to do so. You should end up with a  `model_web` folder. 
