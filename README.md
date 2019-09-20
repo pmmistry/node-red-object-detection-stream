@@ -1,7 +1,4 @@
 # Object Detection on live Video Stream using Node-RED
-[![NPM Version](https://img.shields.io/npm/v/node-red-contrib-ffmpeg.svg)](https://npmjs.org/package/node-red-contrib-ffmpeg)
-[![NPM Downloads](https://img.shields.io/npm/dm/node-red-contrib-ffmpeg.svg)](https://npmjs.org/package/node-red-contrib-ffmpeg)
-
 This repository contains Node-RED flow examples that demonstrate how to detect objects using  video stream from either [DJI Tello Drone](https://www.ryzerobotics.com/tello) or a [Raspberry Pi](https://www.raspberrypi.org/) using the [Node-RED visual editor](http://nodered.org).
 
 ----------
@@ -22,8 +19,7 @@ This example will be using the  [node-red-contrib-ffmpeg](https://flows.nodered.
 Search and un-comment out the following
     ``` 
      httpAdminRoot: '/editor',
-     httpNodeRoot: '/api',
-     httpStatic: '/Users/<homefolder>/.node-red',
+     httpStatic: '/<homefolder>/.node-red',
      
      ```
      
@@ -62,8 +58,7 @@ You should see [live streaming with tello drone ](https://twitter.com/poojamakes
 Search and un-comment out the following
 
      httpAdminRoot: '/editor',
-     httpNodeRoot: '/api',
-     httpStatic: '/Users/<homefolder>/.node-red',
+     httpStatic: '/<homefolder>/.node-red',
 
 6. Run Node-Red by running this command : `node-red` 
 
