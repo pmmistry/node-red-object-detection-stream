@@ -20,9 +20,12 @@ This example will be using the  [node-red-contrib-ffmpeg](https://flows.nodered.
  5. Copy your `mode_web` folder in the directory you installed node red 
  6. In the node-red directory make the following changes to the `settings.js` folder 
 Search and un-comment out the following
-    ``` httpAdminRoot: '/editor',
+    ``` 
+     httpAdminRoot: '/editor',
      httpNodeRoot: '/api',
-     httpStatic: '/Users/<homefolder>/.node-red',```
+     httpStatic: '/Users/<homefolder>/.node-red',
+     
+     ```
      
  7. Run Node-Red by running this command : `node-red` 
  8. Go to `[http://127.0.0.1:1880/editor/](http://127.0.0.1:1880/editor/#flow/38da0bb9.896c44)` in your browser 
