@@ -28,7 +28,7 @@ Search and un-comment out the following
      ```
      
  7. Run Node-Red by running this command : `node-red` 
- 8. Go to `[http://127.0.0.1:1880/editor/](http://127.0.0.1:1880/editor/#flow/38da0bb9.896c44)` in your browser 
+ 8. Go to `http://127.0.0.1:1880/editor/` in your browser 
  9. Import Tello-Drone [flow](https://github.com/pmmistry/ObjectDetection-Node-RED-VideoStream/blob/master/flows/tellodroneflow.json) 
 10. Turn Tello Wifi on
 11. Inject Command and then streamon in the flow
