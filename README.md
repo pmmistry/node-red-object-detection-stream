@@ -1,4 +1,6 @@
 # Object Detection on live Video Stream using Node-RED
+[![NPM Version](https://img.shields.io/npm/v/node-red-contrib-ffmpeg.svg)](https://npmjs.org/package/node-red-contrib-ffmpeg)
+[![NPM Downloads](https://img.shields.io/npm/dm/node-red-contrib-ffmpeg.svg)](https://npmjs.org/package/node-red-contrib-ffmpeg)
 
 This repository contains Node-RED flow examples that demonstrate how to detect objects using  video stream from either [DJI Tello Drone](https://www.ryzerobotics.com/tello) or a [Raspberry Pi](https://www.raspberrypi.org/) using the [Node-RED visual editor](http://nodered.org).
 
@@ -7,9 +9,7 @@ This repository contains Node-RED flow examples that demonstrate how to detect o
 
 Have you ever wanted to detect objects using live video stream ? Well if so this repo will show you how to get started. 
 
-This example will be using the  [node-red-contrib-ffmpeg](https://flows.nodered.org/node/node-red-contrib-ffmpeg) node. This node allows users to stream video from either a tello drone or a raspberry pi. 
-
-![](https://paper-attachments.dropbox.com/s_02031894C9508F7373D84C3A2DE154DAF4053A3E21718FB401B1C717EE61E346_1569003082191_Screen+Shot+2019-09-18+at+8.44.10+PM.png)
+This example will be using the  [node-red-contrib-ffmpeg](https://flows.nodered.org/node/node-red-contrib-ffmpeg) node. This node allows users to stream video from either a tello drone or a raspberry pi. See [this repo](https://github.com/bourdakos1/node-red-contrib-ffmpeg/edit/master/README.md) on instructions on how to video stream 
 
 
 ## Steps to get started with [Tello Drone](https://www.ryzerobotics.com/tello) 
