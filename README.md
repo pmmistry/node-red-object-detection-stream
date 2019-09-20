@@ -73,7 +73,7 @@ Search and un-comment out the following
 
 ![](https://paper-attachments.dropbox.com/s_02031894C9508F7373D84C3A2DE154DAF4053A3E21718FB401B1C717EE61E346_1569004956153_Screen+Shot+2019-09-20+at+2.42.14+PM.png)
 
-8. Deploy and in a different tab go to ``[http://127.0.0.1:1880/api/dashboard](http://127.0.0.1:1880/editor/#flow/38da0bb9.896c44)`` 
+8. Deploy and in a different tab go to ``http://127.0.0.1:1880/api/dashboard`` 
 
 You should see video stream from Raspberry Pi along with object detection 🎉 
 
